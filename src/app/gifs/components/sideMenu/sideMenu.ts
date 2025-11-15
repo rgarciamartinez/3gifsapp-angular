@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { SideMenuHeader } from "../sideMenuHeader/sideMenuHeader";
-import { SideMenuOptions } from "../sideMenuOptions/sideMenuOptions";
+import { SideMenuHeader } from "./sideMenuHeader/sideMenuHeader";
+import { SideMenuOptions } from "./sideMenuOptions/sideMenuOptions";
 
 @Component({
   selector: 'gifs-side-menu',

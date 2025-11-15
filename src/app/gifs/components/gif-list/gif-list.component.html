@@ -1,15 +1,10 @@
 <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
 
-    <gif-list-item></gif-list-item>
-    <gif-list-item></gif-list-item>
-    <gif-list-item></gif-list-item>
-    <gif-list-item></gif-list-item>
-    <gif-list-item></gif-list-item>
-    <gif-list-item></gif-list-item>
-    <gif-list-item></gif-list-item>
-    <gif-list-item></gif-list-item>
-    <gif-list-item></gif-list-item>
+  @for( image of images(); track $index){
+
+  <gif-list-item [imageRecived]="image.url"> </gif-list-item>
+  }
 
 </div>
 
